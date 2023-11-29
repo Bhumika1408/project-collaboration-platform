@@ -1,0 +1,75 @@
+/* public/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for User Form */
+#user-section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+/* Styling for Project List, Task Table, Comment Section, Attachment Section */
+#project-section, #task-section, #comment-section, #attachment-section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styling for User List */
+#user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Add more styles as needed */
