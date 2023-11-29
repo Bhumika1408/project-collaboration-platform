@@ -1,1 +1,0 @@
-# project-collaboration-platform
